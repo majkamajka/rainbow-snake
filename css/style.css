@@ -3,10 +3,26 @@
   padding: 0;
 }
 
+.mega-container {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.top {
+  padding-top: 50px;
+  width: 300px;
+  margin:0 auto;
+  text-align:center;
+}
+
 .container {
   height: 200px;
-  width: 200px;
+  width: 400px;
   padding-top: 4px;
+  margin: 50px auto;
+  border: 1px dashed purple;
+  position: relative;
 }
 
 .pixel {
@@ -16,3 +32,12 @@
   box-sizing: border-box;
   margin-top: -4px;
 }
+
+img {
+  position: absolute;
+  bottom: 0;
+}
+
+/*.pixel:hover {
+  background-image:
+}*/
